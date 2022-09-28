@@ -1,0 +1,139 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body,
+input,
+button {
+  font-family: 'Open Sans', sans-serif;
+}
+
+input,
+button {
+  font-size: 16px;
+}
+
+label {
+  font-size: 20px;
+}
+
+header {
+  background-color: antiquewhite;
+  padding: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+header > h1 {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+main {
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 16px;
+
+}
+
+section {
+  margin: 20px 3px;
+  border: 1px solid black;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+form > .input > label {
+  display: block;
+}
+
+form > .input > input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#input_book > h2 {
+  text-align: center;
+}
+
+.check-status {
+  margin-top: 12px;
+}
+
+.check-status > label {
+  margin-top: 10px;
+  font-size : 18px;
+}
+
+form > #bookSubmit  {
+  margin-top: 12px;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: antiquewhite;
+}
+
+button > span {
+  font-style: italic;
+}
+
+.search_section > h1 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+#searchBook > input {
+  display: inline-block;
+  width: 65%;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#searchBook > button {
+  display: inline-block;
+  width: 25%;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: antiquewhite;
+}
+
+.book_item {
+  margin: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.action {
+  margin-top: 8px;
+}
+
+.action > .green {
+  display: inline-block;
+  color: white;
+  background-color: rgb(8, 231, 8);
+  padding: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 7px;
+  font-weight: bold;
+}
+
+.action>.red {
+  display: inline-block;
+  color: white;
+  background-color: rgb(182, 8, 8);
+  padding: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}

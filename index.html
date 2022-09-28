@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookshelf App</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Bookshelf App 📚</h1>
+  </header>
+  
+  <main>
+      <section class="input_section">
+        <form id="input_book">
+          <h2>Masukkan Data Buku</h2>
+          <div class="input">
+            <label for="judul_buku">Judul</label>
+            <input type="text"  id="judul_buku" required>
+          </div>
+          <div class="input">
+            <label for="penulis_buku">Penulis</label>
+            <input type="text"  id="penulis_buku" required>
+          </div>
+          <div class="input">
+            <label for="tahun_buku">Tahun</label>
+            <input type="number"  id="tahun_buku" required>
+          </div>
+          <div class="check-status">
+            <label for="status_buku">Selesai dibaca</label>
+            <input type="checkbox" id="status_buku">
+          </div>
+        
+        <button id="bookSubmit" type="submit">Masukkan Buku ke rak <span>Belum selesai dibaca</span></button>
+        </form>
+      </section>
+
+      <section class="search_section">
+        <h1>Cari Buku 🔎</h1>
+        <form id="searchBook">
+          <label for="searchBookTitle">Judul</label>
+          <input id="searchBookTitle" type="text">
+          <button id="searchSubmit" type="submit">Cari</button>
+        </form>
+      </section>
+
+      <section class="notyet_section">
+        <h1>Belum selesai dibaca 📘</h1>
+        <div id="incompleteBookshelfList" class="book_list">
+        </div>
+      </section>
+
+      <section class="already_section">
+        <h1>Selesai dibaca 📗</h1>
+        <div id="uncompleteBookshelfList" class="book_list">
+          
+        </div>
+      </section>
+ 
+      
+  </main>
+<script src="js/script.js"></script>
+</body>
+</html>
